@@ -1,0 +1,16 @@
+{
+  "name": "bitcoin-tools",
+  "version": "0.0.0",
+  "desription": "Bitcoin tools",
+  "dependencies": {
+    "bitcoinjs-lib": "git+ssh://git@github.com:justcoin/bitcoinjs-lib.git#2a16cd939194e994b308ecad086ae93f4c2b294e",
+    "ursa": "0.8.0"
+  },
+  "devDependencies": {
+    "expect.js": "0.2.0",
+    "mocha": "1.16.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
